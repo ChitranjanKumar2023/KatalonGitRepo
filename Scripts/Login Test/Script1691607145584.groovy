@@ -23,7 +23,5 @@ WebUI.navigateToUrl('https://www.google.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Google/div_CcAdNbmarginauto.QCzoEcmargin-top3pxcol_c02672'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Google/textarea__q'), 'Hello')
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Page_Google/textarea__q'), 'Hi')
 
